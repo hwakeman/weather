@@ -24,7 +24,7 @@ body {
     transform: translate(-50%, -50%);
 
     width: 70%;
-    height: 60%;
+    height: max(60%, 700px);
 
     background-image: linear-gradient(to top right, rgb(67, 212, 193), red);
     border-radius: 20px;
