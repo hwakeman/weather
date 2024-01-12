@@ -54,7 +54,6 @@ async function displayInformation(location) {
         const icon = document.getElementsByClassName('icon')[0]
         const temperature = document.getElementsByClassName('temperature')[0]
 
-        console.log('trying')
         nameAndRegion.innerHTML = `${information.name}, ${information.region}`
         weatherDescription.innerHTML = information.weather
         icon.src = information.icon
