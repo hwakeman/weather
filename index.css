@@ -25,7 +25,6 @@ body {
 
     width: 70%;
     height: 60%;
-    min-height: 700px;
 
     background-image: linear-gradient(to top right, rgb(67, 212, 193), red);
     border-radius: 20px;
